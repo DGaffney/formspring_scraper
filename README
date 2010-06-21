@@ -1,0 +1,29 @@
+====
+Formspring.me scraper
+
+** REQUIRED GEMS **
+Hpricot (any version)
+
+(Also uses open-uri and rubygems, fasho)
+====
+
+Input URLs of formspring pages into url_list.txt, separate with a newline (\n). 
+
+The program then iterates through the pages, and outputs data from the Formspring pages as such:
+
+==================================================
+Screen_Name
+User_Name
+Location
+Description
+..................................................
+QUESTION
+
+ANSWER
+--------------------------------------------------
+
+....
+
+For as many questions/answers are present on page.
+
+irb, then load "formspring.rb" or ruby formspring.rb to run.
